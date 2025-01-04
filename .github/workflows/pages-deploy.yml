@@ -38,7 +38,7 @@ jobs:
           mkdir -p en
           mkdir -p zh
           cp -r ./generated/en/* en
-          cp -r ./generated/pt/* zh
+          cp -r ./generated/zh/* zh
 
       - name: Copy index.html to root
         run: cp blog/index.html ./generated/index.html
