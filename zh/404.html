@@ -211,43 +211,182 @@
     <!-- The Side Bar -->
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
-  <header class="profile-wrapper">
-    <a href="/zh/" id="avatar" class="rounded-circle"><img src="/zh/assets/avatar.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
+    <header class="profile-wrapper">
+      <a href="/zh/" id="avatar" class="rounded-circle"><img src="/zh/assets/avatar.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
+  
+      <h1 class="site-title">
+        <a href="/zh/">Blog do Mateus</a>
+      </h1>
+      <p class="site-subtitle fst-italic mb-0">Meu Blog</p>
+    </header>
+    <!-- .profile-wrapper -->
+  
+    <nav class="flex-column flex-grow-1 w-100 ps-0">
+      <ul class="nav">
+        <!-- home -->
+        <li class="nav-item">
+          <a href="/zh/" class="nav-link">
+            <i class="fa-fw fas fa-home"></i>
+            <span>首页</span>
+          </a>
+        </li>
+        <!-- the real tabs -->
+        
+          <li class="nav-item">
+            <a href="/zh/categories/" class="nav-link">
+              <i class="fa-fw fas fa-stream"></i>
+              
+  
+              <span>分类</span>
+            </a>
+          </li>
+          <!-- .nav-item -->
+        
+          <li class="nav-item">
+            <a href="/zh/tags/" class="nav-link">
+              <i class="fa-fw fas fa-tags"></i>
+              
+  
+              <span>标签</span>
+            </a>
+          </li>
+          <!-- .nav-item -->
+        
+          <li class="nav-item">
+            <a href="/zh/archives/" class="nav-link">
+              <i class="fa-fw fas fa-archive"></i>
+              
+  
+              <span>归档</span>
+            </a>
+          </li>
+          <!-- .nav-item -->
+        
+          <li class="nav-item">
+            <a href="/zh/about/" class="nav-link">
+              <i class="fa-fw fas fa-info-circle"></i>
+              
+  
+              <span>关于</span>
+            </a>
+          </li>
+          <!-- .nav-item -->
+        
+        <br>
+        <br>
+        <br>
+        <li class="nav-item">
+          <a href="https://mateus2k2.github.io/en/" class="nav-link">
+            <i class="fa-fw fas fa fa-language"></i>
+            <span>English</span>
+          </a>
+        </li>
 
-    <a class="site-title d-block" href="/zh/">Blog do Mateus</a>
-    <p class="site-subtitle fst-italic mb-0">Meu Blog</p>
-  </header>
-  <!-- .profile-wrapper -->
-
-  <nav class="flex-column flex-grow-1 w-100 ps-0">
-    <ul class="nav">
-      <!-- home -->
-      <li class="nav-item">
-        <a href="/zh/" class="nav-link">
-          <i class="fa-fw fas fa-home"></i>
-          <span>首页</span>
-        </a>
-      </li>
-      <!-- the real tabs -->
+      </ul>
+    </nav>
+  
+    <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
       
-    </ul>
-  </nav>
-
-  <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
-    
-      <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
-        <i class="fas fa-adjust"></i>
-      </button>
-
+        <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
+          <i class="fas fa-adjust"></i>
+        </button>
+  
+        
+          <span class="icon-border"></span>
+        
       
-    
+  
+      
+        
+  
+        
+          <a
+            href="https://github.com/joechuhai"
+            aria-label="github"
+            
+  
+            
+              target="_blank"
+              
+            
+  
+            
+  
+            
+              rel="noopener noreferrer"
+            
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        
+        
+        
+  
+        
+          <a
+            href="https://twitter.com/2k2Mateus"
+            aria-label="twitter"
+            
+  
+            
+              target="_blank"
+              
+            
+  
+            
+  
+            
+              rel="noopener noreferrer"
+            
+          >
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        
+        
+        
+  
+        
+          <a
+            href="javascript:location.href = 'mailto:' + ['mateusfilipe2k2','gmail.com'].join('@')"
+            aria-label="email"
+            
+  
+            
+  
+            
+  
+            
+          >
+            <i class="fas fa-envelope"></i>
+          </a>
+        
+        
+        
+  
+        
+          <a
+            href="/zh/feed.xml"
+            aria-label="rss"
+            
+  
+            
+  
+            
+  
+            
+          >
+            <i class="fas fa-rss"></i>
+          </a>
+        
+        
+        <!-- <a href="https://mateus2k2.github.io/en/">en</a>
+        <a href="https://mateus2k2.github.io/pt/">pt</a> -->
+    </div>
 
-    
-  </div>
-  <!-- .sidebar-bottom -->
-</aside>
-<!-- #sidebar -->
 
+    <!-- .sidebar-bottom -->
+  </aside>
+  <!-- #sidebar -->
 
     <div id="main-wrapper" class="d-flex justify-content-center">
       <div class="container d-flex flex-column px-xxl-5">
@@ -419,6 +558,21 @@
 
 
 
+  <section id="access-lastmod">
+    <h2 class="panel-heading">最近更新</h2>
+    <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/zh/posts/text-and-typography/">Teste das Capacidades de Escrita do template</a>
+        </li>
+      
+    </ul>
+  </section>
+  <!-- #access-lastmod -->
+
 
               <!-- The trending tags list -->
 
@@ -436,8 +590,26 @@
 
 
 
+  
+    
+    
+    
+    
+      
+        
+        
 
 
+
+  <section>
+    <h2 class="panel-heading">Tags do Momento</h2>
+    <div class="d-flex flex-wrap mt-3 mb-1 me-3">
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/zh/tags/typography/">typography</a>
+      
+    </div>
+  </section>
 
             </div>
 
@@ -482,10 +654,9 @@
         href="https://github.com/cotes2020/jekyll-theme-chirpy"
         target="_blank"
         rel="noopener"
-      >Chirpy</a>
+      >Chirpy</a> <a href="https://github.com/mateus2k2/mateus2k2.github.io">Repo</a>
   </p>
 </footer>
-
           </div>
         </div>
 
@@ -510,8 +681,26 @@
 
 
 
+  
+    
+    
+    
+    
+      
+        
+        
 
 
+
+  <section>
+    <h2 class="panel-heading">Tags do Momento</h2>
+    <div class="d-flex flex-wrap mt-3 mb-1 me-3">
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/zh/tags/typography/">typography</a>
+      
+    </div>
+  </section>
 
     </div>
     <div id="search-results" class="d-flex flex-wrap justify-content-center text-muted mt-3"></div>

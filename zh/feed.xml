@@ -4,7 +4,7 @@
   <id>https://joechuhai.github.io/zh/</id>
   <title>Blog do Mateus</title>
   <subtitle>Blog Simples com o tema Jekyll Chirpy.</subtitle>
-  <updated>2025-01-04T11:17:18+08:00</updated>
+  <updated>2025-01-04T11:23:08+08:00</updated>
   <author>
     <name>Mateus Filipe Moreira Silva</name>
     <uri>https://joechuhai.github.io/zh/</uri>
@@ -17,6 +17,46 @@
   <icon>/zh/assets/img/favicons/favicon.ico</icon>
   <logo>/zh/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Teste das Capacidades de Escrita do template</title>
+    <link href="https://joechuhai.github.io/zh/posts/text-and-typography/" rel="alternate" type="text/html" title="Teste das Capacidades de Escrita do template" />
+    <published>2019-08-08T11:33:00+08:00</published>
+  
+    <updated>2019-08-08T11:33:00+08:00</updated>
+  
+    <id>https://joechuhai.github.io/zh/posts/text-and-typography/</id>
+    <content type="text/html" src="https://joechuhai.github.io/zh/posts/text-and-typography/" />
+    <author>
+      <name>mateus</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Demo" />
+    
+  
+
+  <summary>This post is to show Markdown syntax rendering on Chirpy, you can also use it as an example of writing. Now, let’s start looking at text and typography.
+
+Headings
+
+H1 - PT - heading
+
+H2 - heading
+
+H3 - heading
+
+H4 - heading
+
+Paragraph
+
+Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas interdum malesuada egestas. Duis consectetur porta risus, sit amet vulputate urna fa...</summary>
+
+  </entry>
 
 </feed>
 
