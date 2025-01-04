@@ -30,15 +30,15 @@ jobs:
       - name: Build English site
         run: bundle exec jekyll build -d ./generated/en --source ./blog/en --config _config_en.yml
 
-      - name: Build Portuguese site
-        run: bundle exec jekyll build -d ./generated/pt --source ./blog/pt --config _config_pt.yml
+      - name: Build Chinese site
+        run: bundle exec jekyll build -d ./generated/zh --source ./blog/zh --config _config_zh.yml
 
       - name: Copy sites
         run: |
           mkdir -p en
-          mkdir -p pt
+          mkdir -p zh
           cp -r ./generated/en/* en
-          cp -r ./generated/pt/* pt
+          cp -r ./generated/pt/* zh
 
       - name: Copy index.html to root
         run: cp blog/index.html ./generated/index.html
